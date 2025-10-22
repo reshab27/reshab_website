@@ -258,5 +258,3 @@ For questions about the design system or implementation, contact:
 **Version**: 2.0  
 **Last Updated**: September 2025  
 **Author**: Reshab Srinivasan
-"# reshab_portfolio" 
-"# reshab_portfolio" 
