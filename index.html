@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reshab Srinivasan - Business Analyst & Data Analytics Professional. Experienced in client management, data analysis, and process optimisation.">
+    <meta name="keywords" content="Business Analyst, Data Analytics, Client Management, Process Optimisation, Business Intelligence">
+    <meta name="author" content="Reshab Srinivasan">
+    
+    <title>Reshab Srinivasan - Business Analyst & Data Professional</title>
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Modern Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Modern CSS -->
+    <link rel="stylesheet" href="css/modern-style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="layout">
+        <!-- Mobile Header -->
+        <header class="header">
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="header__nav" aria-label="Mobile navigation">
+                <a href="#about" class="header__nav-link">About</a>
+                <a href="#skills" class="header__nav-link">Skills</a>
+                <a href="#experience" class="header__nav-link">Experience</a>
+                <a href="#contact" class="header__nav-link">Contact</a>
+            </nav>
+        </header>
+
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar__profile">
+                <img src="img/linkedin dp.jpg" alt="Reshab Srinivasan" class="sidebar__avatar">
+                <h1 class="sidebar__name">Reshab Srinivasan</h1>
+                <p class="sidebar__title">Business Analyst and Data Professional</p>
+            </div>
+
+            <nav class="sidebar__navigation" role="navigation" aria-label="Main navigation">
+                <ul class="sidebar__nav">
+                    <li class="sidebar__nav-item">
+                        <a href="#about" class="sidebar__nav-link active" data-section="about">
+                            <i class="sidebar__nav-icon fas fa-user"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__nav-item">
+                        <a href="#skills" class="sidebar__nav-link" data-section="skills">
+                            <i class="sidebar__nav-icon fas fa-cogs"></i>
+                            <span>Skills</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__nav-item">
+                        <a href="#projects" class="sidebar__nav-link" data-section="projects">
+                            <i class="sidebar__nav-icon fas fa-project-diagram"></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__nav-item">
+                        <a href="#experience" class="sidebar__nav-link" data-section="experience">
+                            <i class="sidebar__nav-icon fas fa-briefcase"></i>
+                            <span>Experience</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__nav-item">
+                        <a href="#education" class="sidebar__nav-link" data-section="education">
+                            <i class="sidebar__nav-icon fas fa-graduation-cap"></i>
+                            <span>Education</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__nav-item">
+                        <a href="#contact" class="sidebar__nav-link" data-section="contact">
+                            <i class="sidebar__nav-icon fas fa-envelope"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar__footer">
+                <a href="mailto:reshab.srinivasan@gmail.com" class="btn btn--primary" aria-label="Contact me via email">
+                    <i class="fas fa-envelope"></i>
+                    <span>Get In Touch</span>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main" id="main">
+            <!-- About Section -->
+            <section id="about" class="section">
+                <div class="section__header">
+                    <h2 class="section__title">About Me</h2>
+                </div>
+                
+                <div class="card">
+                    <div class="card__content">
+                        <p>As a dedicated professional with a Master’s in Business Information Systems from Swinburne University of Technology, I bring a robust foundation in business analysis and data-driven decision-making to support organisational success. With hands-on experience in optimising processes, managing stakeholder relationships, and delivering actionable insights through tools like Power BI and Tableau, I am equipped to enhance operational efficiency and strategic outcomes for your team. My internship roles at TenderTrace and WebAlive, and as an analyst at LatentView Analytics, have honed my ability to tackle complex challenges with a critical eye, ensuring solutions are both practical and innovative.</p>
+                        
+                        <p>I thrive in dynamic environments, quickly adapting to new technologies and methodologies—whether it’s mastering SQL for data analysis or working to understand the business processes or requirements. This eagerness to learn, paired with a proactive approach to problem-solving, allows me to contribute fresh perspectives and drive continuous improvement. Currently looking for an opportunity to add more value to organisation/project by leveraging my skillset.</p>
+                        
+                        <div style="margin-top: 2rem;">
+                            <a href="Reshab_srinivasan_bagro.pdf" class="btn btn--primary" download>
+                                <i class="fas fa-download"></i>
+                                <span>Download Resume</span>
+                            </a>
+                            <a href="#contact" class="btn btn--outline">
+                                <i class="fas fa-envelope"></i>
+                                <span>Contact Me</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+                <div class="section__header">
+                    <h2 class="section__title">Skills</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">
+                            <i class="skill-category__icon fas fa-chart-line"></i>
+                            Business Analysis
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <div class="skill-item__name">Requirement Analysis</div>
+                                <p class="skill-item__description">Elicitation techniques, Requirements lifecycle management and hands-on experience in building BRDs and SRDs that communicate the needs and objectives clearly to the stakeholders.</p>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item__name">Business Process Management</div>
+                                <p class="skill-item__description">Process Mapping, process optimisations, gap analysis, Business process modelling using tools like Bizagi for better translation to internal and external audiences.</p>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item__name">Stakeholder Management</div>
+                                <p class="skill-item__description">Proven ability to manage and serve clients' requirements and build solutions with internal teams in client-facing roles and projects.</p>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item__name">Agile Mindset</div>
+                                <p class="skill-item__description">Willingness to learn and listen to all stakeholders, driving a better chance of building ideal solutions and changes using Agile methodology.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">
+                            <i class="skill-category__icon fas fa-database"></i>
+                            Data Analytics
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <div class="skill-item__name">Data Analysis</div>
+                                <p class="skill-item__description">Hands-on experience in Excel, SQL, and Data Visualisation.</p>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item__name">Business Intelligence</div>
+                                <p class="skill-item__description">Ability to create dashboards to solve different requirements and provide data-driven solutions using tools like Power BI, Tableau.</p>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item__name">Algorithms</div>
+                                <p class="skill-item__description">Foundational understanding of machine learning algorithms to efficiently handle and identify trends in large datasets acquired through academic projects and coursework using Python.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">
+                            <i class="skill-category__icon fas fa-tools"></i>
+                            Technical Tools and Platforms
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <div class="skill-item__name">Documentation</div>
+                                <p class="skill-item__description">Proficient documentation skills using Confluence, Google Docs and MS365 tools, including the use of Co-Pilot to build functional BRDs.</p>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item__name">ERP Systems</div>
+                                <p class="skill-item__description">Hands-on experience in SAP - S4/HANA, building a strong understanding of cloud-based ERP/CRM systems.</p>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item__name">Productivity Tools</div>
+                                <p class="skill-item__description">Exposure to tools like JIRA for tracing and tracking issues from stakeholders, Hubspot, and Monday for efficient client/enquiry management and of course, the ethical use of my new buddies - most of the Gen AI tools.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">
+                            <i class="skill-category__icon fas fa-check-circle"></i>
+                            Quality Assurance
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <div class="skill-item__name">Manual Testing</div>
+                                <p class="skill-item__description">Understanding the business requirements and executing testing of the product before release.</p>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item__name">User Acceptance</div>
+                                <p class="skill-item__description">Proven ability to perform UAT throughout the development lifecycle.</p>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item__name">Tracking Tools</div>
+                                <p class="skill-item__description">Familiar with JIRA to create and manage bugs and issues found while testing.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <div class="section__header">
+                    <h2 class="section__title">Projects</h2>
+                </div>
+
+                <div class="tabs">
+                    <div class="tabs__nav">
+                        <button class="tabs__button active" data-tab="capstone">Industry Capstone</button>
+                        <button class="tabs__button" data-tab="swinburne">Swinburne Cares</button>
+                        <button class="tabs__button" data-tab="reach-out">Reach Out Worldwide</button>
+                        <button class="tabs__button" data-tab="saiep">SAIEP: Mindfulmooves</button>
+                        <button class="tabs__button" data-tab="fault-detection">Intelligent Fault Detection</button>
+                    </div>
+
+                    <div class="tabs__content active" id="capstone">
+                        <div class="card">
+                            <div class="card__header">
+                                <h3 class="card__title">Industry Capstone Project</h3>
+                                <p class="card__subtitle">Enterprise Architecture Analysis</p>
+                            </div>
+                            <div class="card__content">
+                                <p>Managed stakeholder inquiries and documented process flows using Lucidchart for enterprise architecture trends. This project involved analysing complex business processes and creating comprehensive documentation to improve organisational efficiency.</p>
+                                <ul>
+                                    <li>Stakeholder engagement and requirement gathering</li>
+                                    <li>Process flow documentation and analysis</li>
+                                    <li>Enterprise architecture trend research</li>
+                                    <li>Technical documentation and reporting</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__content" id="swinburne">
+                        <div class="card">
+                            <div class="card__header">
+                                <h3 class="card__title">Swinburne Cares Project</h3>
+                                <p class="card__subtitle">Process Optimisation Initiative</p>
+                            </div>
+                            <div class="card__content">
+                                <p>Optimised donation processes with AS-IS and TO-BE models in Bizagi for efficiency improvements. Led comprehensive process analysis and redesign to streamline operations and improve user experience.</p>
+                                <ul>
+                                    <li>Current state analysis (AS-IS modelling)</li>
+                                    <li>Future state design (TO-BE modelling)</li>
+                                    <li>Process optimisation recommendations</li>
+                                    <li>Implementation planning and documentation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__content" id="reach-out">
+                        <div class="card">
+                            <div class="card__header">
+                                <h3 class="card__title">Reach Out Worldwide</h3>
+                                <p class="card__subtitle">Data Analytics Project</p>
+                            </div>
+                            <div class="card__content">
+                                <p>Analysed donor data with Tableau to enhance fundraising strategies and improve data quality. Created comprehensive dashboards and insights to support decision-making processes.</p>
+                                <ul>
+                                    <li>Donor data analysis and segmentation</li>
+                                    <li>Interactive dashboard development</li>
+                                    <li>Fundraising strategy recommendations</li>
+                                    <li>Data quality improvement initiatives</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__content" id="saiep">
+                        <div class="card">
+                            <div class="card__header">
+                                <h3 class="card__title">SAIEP: Study Australia Industry Experience Programme – Mindfulmooves</h3>
+                                <p class="card__subtitle">Business Process Assessment (Apr 2025)</p>
+                            </div>
+                            <div class="card__content">
+                                <p>Worked alongside Mindfulmooves to assess current business processes and industry trends to provide strategic recommendations. Developed business analysis, stakeholder engagement, and problem-solving expertise, using structured frameworks to drive business growth and meet the business objective of securing more grants from government bodies.</p>
+                                <ul>
+                                    <li>Business process assessment and analysis</li>
+                                    <li>Industry trend research and strategic recommendations</li>
+                                    <li>Stakeholder engagement and management</li>
+                                    <li>Application of business analysis frameworks for growth</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__content" id="fault-detection">
+                        <div class="card">
+                            <div class="card__header">
+                                <h3 class="card__title">Design and Realisation of Intelligent Fault Detection Techniques</h3>
+                                <p class="card__subtitle">Power System Components (Jun 2021 – May 2022)</p>
+                            </div>
+                            <div class="card__content">
+                                <p>Developed an intelligent system for fault detection in power systems using machine learning at SSN College of Engineering, Chennai. The CNN-based fault detection model significantly enhanced accuracy in identifying and locating faults in power system components, outperforming initial machine learning models. Findings were presented in a detailed report on model performance and efficiency improvements.</p>
+                                <ul>
+                                    <li>Development of CNN-based fault detection model</li>
+                                    <li>Model performance analysis and comparison</li>
+                                    <li>Fault identification and localisation in power systems</li>
+                                    <li>Technical reporting and documentation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="section">
+                <div class="section__header">
+                    <h2 class="section__title">Professional Experience</h2>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-date">May 2025 – Present</div>
+                            <h3 class="timeline-title">Business Analyst Intern</h3>
+                            <div class="timeline-subtitle">TenderTrace Pty Ltd</div>
+                            <p class="timeline-description">
+                                Managed client requirements for GDPR-compliant projects. Responded to stakeholder inquiries and maintained documentation using Confluence. Ensured project adherence to timelines and regulatory standards.
+                                <br><br>
+                                <strong>Tools:</strong> JIRA, Google Docs, Monday, HubSpot, Confluence
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-date">Jan 2025 – Jun 2025</div>
+                            <h3 class="timeline-title">Business Analyst Intern</h3>
+                            <div class="timeline-subtitle">WebAlive</div>
+                            <p class="timeline-description">
+                                Monitored data syncs and prepared documentation for marketing technology products. Used analytics to support feature performance analysis and partnered with teams for data visualisation. Enhanced product insights through effective communication with stakeholders.
+                                <br><br>
+                                <strong>Tools:</strong> JIRA, Confluence
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-date">Jun 2022 – Jul 2023</div>
+                            <h3 class="timeline-title">Analyst – BI Developer</h3>
+                            <div class="timeline-subtitle">LatentView Analytics</div>
+                            <p class="timeline-description">
+                                Managed client data within Power BI and Tableau dashboards connected to Snowflake. Produced reports, maintained database accuracy, and documented workflows using Excel and SQL. Improved decision-making speed by ensuring accurate data insights.
+                                <br><br>
+                                <strong>Tools:</strong> Power BI, Tableau, SQL, JIRA
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Domains of Expertise Section -->
+            <section id="domains" class="section">
+                <div class="section__header">
+                    <h2 class="section__title">Domains of Expertise</h2>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-date"></div>
+                            <h3 class="timeline-title"><i class="fas fa-shield-alt"></i> Data Privacy and Governance</h3>
+                            <div class="timeline-subtitle"></div>
+                            <p class="timeline-description">
+                                During my internship at TenderTrace, I worked on their UK expansion project where my role involved understanding GDPR and ensuring existing processes complied with its requirements. This included building use cases and requirements around the use and handling of personal data, identifying risks and gaps in processes using process mapping techniques to highlight and implement new steps to prevent any risks related to personal data processing. This provided me with a comprehensive understanding of the data governance and data privacy domain as a business analyst.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-date"></div>
+                            <h3 class="timeline-title"><i class="fas fa-chart-pie"></i> Marketing Analytics</h3>
+                            <div class="timeline-subtitle"></div>
+                            <p class="timeline-description">
+                                In my role as an analyst at LatentView Analytics, I worked on a project focused on a client's marketing data. The process of understanding and analysing this data gave me a strong grasp of marketing metrics and the strategies involved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="section">
+                <div class="section__header">
+                    <h2 class="section__title">Education</h2>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-date">Jul 2023 – Jun 2025</div>
+                            <h3 class="timeline-title">Master of Business Information Systems</h3>
+                            <div class="timeline-subtitle">Swinburne University of Technology</div>
+                            <p class="timeline-description">
+                                Specialised in business analysis and information systems. Achieved High Distinction in Database Analysis and Design, and Distinction in Requirement Analysis & Modelling. Developed skills for effective decision-making and process optimisation.
+                                <br><br>
+                                <strong>Key Achievements:</strong> High Distinction in Database Analysis and Design, Distinction in Requirement Analysis & Modelling
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-date">Aug 2018 – Jun 2022</div>
+                            <h3 class="timeline-title">Bachelor of Engineering</h3>
+                            <div class="timeline-subtitle">SSN College of Engineering</div>
+                            <p class="timeline-description">
+                                Built foundational knowledge in engineering principles. Completed coursework and projects in technical design and analysis. Graduated with overall distinctions, preparing for advanced studies.
+                                <br><br>
+                                <strong>Achievement:</strong> Graduated with overall distinctions
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Leadership & Involvement Section -->
+            <section class="section">
+                <div class="section__header">
+                    <h2 class="section__title">Leadership & Involvement</h2>
+                </div>
+
+                <div class="card">
+                    <div class="card__header">
+                        <h3 class="card__title">Culture and Faith Representative</h3>
+                        <p class="card__subtitle">Swinburne Student Association (Jan 2025 – Jul 2025)</p>
+                    </div>
+                    <div class="card__content">
+                        <p>Supported the operations of over 20 cultural and faith clubs at Swinburne University of Technology, advocating for student interests and facilitating inclusive meetings. Orchestrated a <strong>South Asian New Year celebration</strong> attended by over 600 students, where I honed skills in event planning, stakeholder coordination, and community engagement through collaboration with diverse groups.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__header">
+                        <h3 class="card__title">Culture and Faith Representative</h3>
+                        <p class="card__subtitle">Swinburne Tamil Club (Jan 2024 – Present)</p>
+                    </div>
+                    <div class="card__content">
+                        <p>Led the Advisory Board in overseeing club activities, coordinating cultural festivals, and supporting member well-being. Spearheaded fundraising initiatives, securing sponsorships and boosting event-driven revenue, which developed expertise in financial management and negotiation. Executed a <strong>cultural night event</strong> with over 500 attendees, enhancing leadership and stakeholder management skills through planning and multi-party coordination.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__header">
+                        <h3 class="card__title">Professional Memberships</h3>
+                    </div>
+                    <div class="card__content">
+                        <ul>
+                            <li><strong>ACS (Australian Computer Society)</strong> - Professional development in technology</li>
+                            <li><strong>IIBA (International Institute of Business Analysis)</strong> - Business analysis best practices</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- My Next Professional Milestone Section -->
+            <section id="milestone" class="section">
+                <div class="section__header">
+                    <h2 class="section__title">My Next Professional Milestone</h2>
+                </div>
+
+                <div class="card">
+                    <div class="card__content">
+                        <p>Currently preparing for the ECBA certification from IIBA, to be completed by the end of 2025.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Why Hire Me as Your Business Analyst Section -->
+            <section id="why-hire-me" class="section">
+                <div class="section__header">
+                    <h2 class="section__title">Why Hire Me as Your Business Analyst?</h2>
+                </div>
+
+                <div class="card">
+                    <div class="card__content">
+                        <ul class="skill-list">
+                            <li class="skill-item"><i class="fas fa-users"></i> Business Knowledge</li>
+                            <li class="skill-item"><i class="fas fa-lightbulb"></i> Facilitation</li>
+                            <li class="skill-item"><i class="fas fa-sync-alt"></i> Agile Mindset</li>
+                            <li class="skill-item"><i class="fas fa-paint-brush"></i> Creative Thinking</li>
+                            <li class="skill-item"><i class="fas fa-sitemap"></i> Systems Thinking</li>
+                            <li class="skill-item"><i class="fas fa-check"></i> Decision-Making</li>
+                            <li class="skill-item"><i class="fas fa-brain"></i> Conceptual Thinking</li>
+                            <li class="skill-item"><i class="fas fa-clock"></i> Organisation and Time Management</li>
+                            <li class="skill-item"><i class="fas fa-star"></i> Leadership and Influence</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="section__header">
+                    <h2 class="section__title">Get In Touch</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        
+                        <div class="contact-item">
+                            <i class="contact-icon fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong><br>
+                                <a href="mailto:reshab.srinivasan@gmail.com">reshab.srinivasan@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="contact-icon fas fa-phone"></i>
+                            <div>
+                                <strong>Phone</strong><br>
+                                <a href="tel:+61468444052">+61 468 444 052</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="contact-icon fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Location</strong><br>
+                                Melbourne, Australia
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="contact-icon fas fa-file-download"></i>
+                            <div>
+                                <strong>Resume</strong><br>
+                                <a href="Reshab_srinivasan_bagro.pdf" download>Download PDF</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__header">
+                            <h3 class="card__title">Send a Message</h3>
+                        </div>
+                        <div class="card__content">
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" id="name" name="name" class="form-input" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Your Email</label>
+                                    <input type="email" id="email" name="email" class="form-input" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" id="subject" name="subject" class="form-input" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea id="message" name="message" class="form-textarea" required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn--primary">
+                                    <i class="fas fa-paper-plane"></i>
+                                    <span>Send Message</span>
+                                </button>
+                                <a href="https://www.linkedin.com/in/reshab-s/" class="btn btn--primary" style="margin-top: 1rem;" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>Connect on LinkedIn</span>
+                                </a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer__social">
+                    <a href="https://www.linkedin.com/in/reshab-s/" target="_blank" aria-label="LinkedIn Profile">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/reshabsrinivasan" target="_blank" aria-label="GitHub Profile">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <p class="footer__text">&copy; 2025 Reshab Srinivasan. All rights reserved.</p>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/modern-app.js"></script>
+</body>
+</html>
